@@ -1,6 +1,4 @@
 
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -25,6 +23,7 @@ nav .logo{
 
 nav ul{
   display:flex;
+  display: flex;
   width: 100%;
   flex-wrap: wrap;
   list-style: none;
@@ -42,10 +41,13 @@ nav ul li a{
   letter-spacing: 1px;
   transition: all 0.3s ease;
 }
-nav ul li a.active,
-nav ul li a:hover{
+nav ul li a.active{
   color: #111;
   background: #fff;
+}
+nav ul li a:hover{
+  color: #111;
+  background: rgb(116, 112, 112);
 }
 nav .menu-btn i{
   color: #fff;
@@ -127,9 +129,13 @@ div .about{
 ul .facilities{
     list-style: circle;
 }
+.marquee{
+        height:"300px";
+        width:"500px";
+}
 footer{
     color: white;
-    position: relative;
+    position: sta
     background:black;
     width: 100%;
     bottom: 0;
@@ -158,6 +164,7 @@ footer{
   }  
   footer .insta{
     margin-top: 15px;
+    margin-top: 20px;
     font-size: 20px;
   }
   footer .fb{
@@ -166,3 +173,4 @@ footer{
   footer .email{
     font-size: 20px;
   }
+  
